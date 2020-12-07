@@ -31,6 +31,6 @@ Run ```python train_nets.py``` and there are  some flags you can use:
 ```--margin_m``` insightface loss, cosineface loss, or combine loss margin. Default is 0.5  
 
 ## Test Model
-Run ```python test_nets.py``` and you need to use these flags:
-```--model``` Could be either a directory containing the meta_file and ckpt_file or a model protobuf (.pb) file
-```--eval_db_path``` Data test base path (consisting of lfw.bin, cfp_ff.bin, cfp_fp.bin, and agedb_30.bin files
+Run ```python test_nets.py``` and you need to use these flags:  
+```--model``` Could be either a directory containing the meta_file and ckpt_file or a model protobuf (.pb) file  
+```--eval_db_path``` Data test base path (consisting of lfw.bin, cfp_ff.bin, cfp_fp.bin, and agedb_30.bin files  
